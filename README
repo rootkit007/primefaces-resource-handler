@@ -1,1 +1,5 @@
 This is meant as sample/base code for custom Primefaces dynamicImage component and handler. It implements storing the actual streamed content in session (as opposed to PF way of storing EL). This gets around certain limitations such as inability to refer to Spring WebFlow variables in dynamicImage source, and also allows dynamicImage to be rendered more than once (PF implementation removes EL from session after rendering). Incidentally this fixes bug with p:printer component inability to display graphicImage (see https://code.google.com/p/primefaces/issues/detail?id=5313)
+
+This code has been tested with Primefaces 3.5, and likely will not work with <3.5.
+
+No warranty expressed or implied. Use at your own risk. YMMV. Standard disclaimer applies. :)
